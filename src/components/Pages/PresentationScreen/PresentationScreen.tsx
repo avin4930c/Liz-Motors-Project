@@ -88,7 +88,6 @@ const PresentationScreen = () => {
   useEffect(() => {
     const updateWatchedDuration = async () => {
       if (user && currentCourseDetails.sectionID && watchedDuration > 0) {
-        console.log("Updating watched duration...");
         try {
           const response = await fetch(`${import.meta.env.VITE_API_URL}/users/${user.name}/watched-duration`, {
             method: 'POST',
@@ -101,7 +100,6 @@ const PresentationScreen = () => {
             })
           });
           if (response.ok) {
-            console.log("Watched duration updated successfully.");
           }
           else {
             console.error("Failed to update watched duration.");
@@ -117,7 +115,6 @@ const PresentationScreen = () => {
 
   const handleVideoEnd = async () => {
     if (user && currentCourseDetails.sectionID && !user.courseProgress[currentSectionIndex].completed) {
-      console.log("Updating user progress...");
       try {
         const response = await fetch(`${import.meta.env.VITE_API_URL}/users/${user.name}/progress`, {
           method: 'POST',
