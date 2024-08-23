@@ -43,19 +43,19 @@ Currently, the application supports a single user for demonstration purposes. Ho
 # Project Screenshots
 
 ## Screenshot 1
-![ScreenShot1](images/image1.png)
+![ScreenShot1](public/images/image1.png)
 
 ## Screenshot 2
-![ScreenShot2](images/image2.png)
+![ScreenShot2](public/images/image2.png)
 
 ## Screenshot 3
-![ScreenShot3](images/image3.png)
+![ScreenShot3](public/images/image3.png)
 
 ## Screenshot 4
-![ScreenShot4](images/image4.png)
+![ScreenShot4](public/images/image4.png)
 
 ## Screenshot 5
-![ScreenShot5](images/image5.png)
+![ScreenShot5](public/images/image5.png)
 
 ## Code Snippets
 
